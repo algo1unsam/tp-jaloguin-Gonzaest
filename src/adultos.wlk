@@ -8,5 +8,8 @@ object mirca {
 	method tolerancia(){
 		return tolerancia
 	}
-
+	method asusta(chico){
+	if (chico.capacidadDeSusto() > tolerancia)
+		return true
+	}
 }
